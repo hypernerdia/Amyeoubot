@@ -1,19 +1,24 @@
-# 💬 Chatbot template
+# 🦊 AmyeouBot v2
 
-A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
+AmyeouBot v2 is a **Korean learning + wellness chatbot** built with **Streamlit**.  
+It combines **language learning** (lessons, quizzes, TTS) with **mental health support** (mood tracking, motivation, journaling).  
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
+---
 
-### How to run it on your own machine
+## 🚀 Features
+- 🇰🇷 **Learn Korean**: Interactive lessons with TTS (listen to native pronunciation).  
+- 📝 **Quizzes**: Vocabulary, grammar, culture, and phrase practice with scoring & history.  
+- 💙 **Wellness Support**: Mood tracking, coping strategies, affirmations.  
+- ✨ **Motivation & Inspiration**: Random affirmations, prompts, and quotes.  
+- 📓 **Journaling**: Private reflections saved locally (SQLite).  
+- 🤖 **Chat**: Intent recognition (Hugging Face Zero-Shot Classification).  
+- 📊 **Progress Tracking**: Review quiz scores and mood entries.  
 
-1. Install the requirements
+---
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## 🛠️ Installation & Run Locally
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/amyeoubot-v2.git
+   cd amyeoubot-v2
 
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
