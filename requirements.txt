@@ -2,3 +2,6 @@ streamlit
 transformers
 torch
 gTTS
+
+#Install dependencies
+pip install -r requirements.txt
